@@ -3,10 +3,10 @@ The attachment files of SIGIR 2018 submission 705.
 
 
 ### Table of Contents
-- \<a href='#ted_talk_collection'\>TED Talk Collection\</a\>
-- \<a href='#topic_collection'\>Topic Collection\</a\>
-- \<a href='#evaluation'\>Evaluation\</a\>
-- \<a href='#citation'\>Citation\</a\>
+- <a href='#ted_talk_collection'>TED Talk Collection</a>
+- <a href='#topic_collection'>Topic Collection</a>
+- <a href='#evaluation'>Evaluation</a>
+- <a href='#citation'>Citation</a>
 
 ## TED Talk Collection
 - Unzip the ted_talk_collection.zip.* files;
