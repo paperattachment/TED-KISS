@@ -44,7 +44,7 @@ The attachment files of SIGIR 2018 submission 705.
 - Use the ground truth file 
 	- Format:   
 	  ```
-	  #query_id 0 #ground_truth_answer relevance_score;
+	  #query_id 0 #ground_truth_document_id relevance_score;
 	  ```
 - Compile the tool through command ```make```;
 - Run the evaluation:
