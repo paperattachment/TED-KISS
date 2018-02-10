@@ -11,16 +11,17 @@ The attachment files of SIGIR 2018 submission 705.
 ## TED Talk Collection
 - Unzip the ted_talk_collection.zip.* files;
 - Each separated XML file is a speech extracted from TED.com;
-- XML tags:&nbsp;&nbsp;<id>: a unique id for each video document<br />
-              <url>: corresponding link on youtube.com for original video<br />
-              <title>: speech video title<br />
-              <speaker>: person who gived the speech<br />
-              <view_count>: how many users have watched this video<br />
-              <publish_date>: the time when the video was uploaded<br />
-              <ted_event>: the channels on youtube.com<br />
-              <category>: the categories of content on TED.com<br />
-              <description>: the original introduction of video privided when uploaded<br />
-              <transcript>: the automatic subtitles.<br />
+- XML tags:
+	- <id>: a unique id for each video document
+	- <url>: corresponding link on youtube.com for original video
+	- <title>: speech video title
+	- <speaker>: person who gived the speech
+	- <view_count>: how many users have watched this video
+	- <publish_date>: the time when the video was uploaded
+	- <ted_event>: the channels on youtube.com
+	- <category>: the categories of content on TED.com
+	- <description>: the original introduction of video privided when uploaded
+	- <transcript>: the automatic subtitles.
 
 ## Topic Collection
 - Open requested_topics.xml;
