@@ -9,7 +9,7 @@ The attachment files of SIGIR 2018 submission 705.
 - <a href='#citation'>Citation</a>
 
 ## TED Talk Collection
-- Unzip the ted_talk_collection.zip.* files;
+- Unzip the ```ted_talk_collection.zip.*``` files;
 - Each separated XML file is a speech extracted from TED.com;
 - XML tags:
 	- \<id\>: a unique id for each video document
@@ -24,7 +24,7 @@ The attachment files of SIGIR 2018 submission 705.
 	- \<transcript\>: the automatic subtitles.
 
 ## Topic Collection
-- Open requested_topics.xml;
+- Open ```requested_topics.xml```;
 - XML tags:   
 	- \<url\>: the original link to fetch the request, null stands for manually labeled topics
 	- \<type\>: direct (video title directly provided), definite (time/speaker or other definite clues provided, short), detailed (several detailed content provided, long descriptions), list (requiring videos which have certain characteristics)
@@ -41,7 +41,7 @@ The attachment files of SIGIR 2018 submission 705.
 	  ```
 	  #query_id  Q0 #document_id rank predicted_relevance_score system_name;
 	    ```
-- Use the ground truth file eval_file_trec_format.txt
+- Use the ground truth ```file eval_file_trec_format.txt```
 	- Format:   
 	  ```
 	  #query_id 0 #ground_truth_document_id relevance_score;
