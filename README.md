@@ -13,7 +13,7 @@ The attachment files of SIGIR 2018 submission 705.
 - Each separated XML file is a speech extracted from TED.com;
 - XML tags:
 	- <id>: a unique id for each video document
-	- <url>: corresponding link on youtube.com for original video
+	- <xmp><url></xmp>: corresponding link on youtube.com for original video
 	- <title>: speech video title
 	- <speaker>: person who gived the speech
 	- <view_count>: how many users have watched this video
