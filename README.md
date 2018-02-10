@@ -36,10 +36,10 @@ The attachment files of SIGIR 2018 submission 705.
 
 ## Evaluation
 - Download TREC evalution tool from http://trec.nist.gov/trec_eval/trec_eval_latest.tar.gz;
-- Generate standard TREC search result file
-    Format:   #query_id  Q0 #document_id rank predicted_relevance_score system_name;
+- Run your IR models and generate standard TREC search result file
+	- Format:   #query_id  Q0 #document_id rank predicted_relevance_score system_name;
 - Use the ground truth file 
-    Format:   #query_id 0 #ground_truth_answer relevance_score;
+	- Format:   #query_id 0 #ground_truth_answer relevance_score;
 - Compile the tool through command ```make```;
 - Run the evaluation:
   ```
