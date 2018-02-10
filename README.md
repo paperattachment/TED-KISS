@@ -36,12 +36,20 @@ The attachment files of SIGIR 2018 submission 705.
 - Download TREC evalution tool from http://trec.nist.gov/trec_eval/trec_eval_latest.tar.gz;
 - Generate standard TREC search result file
     Format:   #query_id  Q0 #document_id rank predicted_relevance_score system_name;
-- Use the ground truth file
+- Use the ground truth file 
     Format:   #query_id 0 #ground_truth_answer relevance_score;
-- Compile the tool through command
-···
-  make
-···
-
+- Compile the tool through command ```make```;
 - Run the evaluation:
+  ```
+  trec_eval -q -c -M1000 -m all_trec eval_file_trec_format.txt path_to_result_file
+  ```.
+## Citation
+If you use our benchmark, please cite the following paper:
+
+	@inproceedings{sigir_705,
+	  title={TED-KIS: A Known-item Search Benchmark for Speech Videos},
+	  author={Anonymous Author(s)}
+	  booktitle={submitted to SIGIR},
+	  year={2018}
+	}
     
