@@ -41,7 +41,7 @@ The attachment files of SIGIR 2018 submission 705.
 	  ```
 	  #query_id  Q0 #document_id rank predicted_relevance_score system_name;
 	    ```
-- Use the ground truth file 
+- Use the ground truth file eval_file_trec_format.txt
 	- Format:   
 	  ```
 	  #query_id 0 #ground_truth_document_id relevance_score;
