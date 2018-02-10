@@ -42,7 +42,6 @@ The attachment files of SIGIR 2018 submission 705.
 - Run the evaluation:
   ```
   trec_eval -q -c -M1000 -m all_trec eval_file_trec_format.txt path_to_result_file
-  
 ## Citation
 If you use our benchmark, please cite the following paper:
 
