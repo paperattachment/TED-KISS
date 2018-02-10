@@ -26,7 +26,7 @@ The attachment files of SIGIR 2018 submission 705.
 ## Topic Collection
 - Open requested_topics.xml;
 - XML tags:   
-	- \<url\>: the original link to fetch the request, null stands for manually labeled topics;
+	- \<url\>: the original link to fetch the request, null stands for manually labeled topics
 	- \<type\>: direct (video title directly provided), definite (time/speaker or other definite clues provided, short), detailed (several detailed content provided, long descriptions), list (requiring videos which have certain characteristics)
 	- \<title\>: requested topic title
 	- \<topic_creator\>：the user name, or "volunteer"
@@ -37,9 +37,15 @@ The attachment files of SIGIR 2018 submission 705.
 ## Evaluation
 - Download TREC evalution tool from http://trec.nist.gov/trec_eval/trec_eval_latest.tar.gz;
 - Run your IR models and generate standard TREC search result file
-	- Format:   #query_id  Q0 #document_id rank predicted_relevance_score system_name;
+	- Format:   
+	  ```
+	  #query_id  Q0 #document_id rank predicted_relevance_score system_name;
+	    ```
 - Use the ground truth file 
-	- Format:   #query_id 0 #ground_truth_answer relevance_score;
+	- Format:   
+	  ```
+	  #query_id 0 #ground_truth_answer relevance_score;
+	  ```
 - Compile the tool through command ```make```;
 - Run the evaluation:
   ```
