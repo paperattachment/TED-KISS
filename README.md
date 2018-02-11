@@ -1,4 +1,4 @@
-# TED-KIS: A Known Item Search Benchmark for Speech Videos
+# TED-KIS: A Known Item Search Benchmark for TED Talks
 The attachment files of SIGIR 2018 submission 705.  
 
 
