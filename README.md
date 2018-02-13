@@ -54,7 +54,7 @@ The attachment files of SIGIR 2018 submission 705.
 If you use our benchmark, please cite the following paper:
 
 	@inproceedings{sigir_705,
-	  title={TED-KIS: A Known-item Search Benchmark for Speech Videos},
+	  title={TED-KISS: a Known-Item Speech Search benchmark},
 	  author={Anonymous Author(s)}
 	  booktitle={submitted to SIGIR},
 	  year={2018}
