@@ -1,5 +1,5 @@
-# TED-KISS: a Known-Item Speech Search benchmark
-The attachment files of SIGIR 2018 submission 705.  
+# TED-KISS: a Known-Item Speech video Search benchmark
+The attachment files of CIKM 2018 submission 1380.  
 
 
 ### Table of Contents
@@ -53,10 +53,10 @@ The attachment files of SIGIR 2018 submission 705.
 ## Citation
 If you use our benchmark, please cite the following paper:
 
-	@inproceedings{sigir_705,
-	  title={TED-KISS: a Known-Item Speech Search benchmark},
+	@inproceedings{cikm_1380,
+	  title={TED-KISS: a Known-Item Speech video Search benchmark},
 	  author={Anonymous Author(s)}
-	  booktitle={submitted to SIGIR},
+	  booktitle={submitted to CIKM},
 	  year={2018}
 	}
     
