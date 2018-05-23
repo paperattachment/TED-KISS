@@ -5,9 +5,9 @@ The attachment files of CIKM 2018 submission 1380.
 ### Table of Contents
 - <a href='#ted_talk_collection'>TED Talk Collection</a>
 - <a href='#topic_collection'>Topic Collection</a>
+- <a href='#neural-ir_models'>Neural-IR Models</a>
 - <a href='#evaluation'>Evaluation</a>
 - <a href='#citation'>Citation</a>
-- <a href='#neural-ir_models'>Neural-IR Models</a>
 
 
 ## TED Talk Collection
@@ -37,7 +37,7 @@ The attachment files of CIKM 2018 submission 1380.
 	- \<answer\>: the link to ground truth video.
 
 ## Neural-IR Models
-The two Neu-IR models are from [link](https://github.com/white127/insuranceQA-cnn-lstm)
+The two Neu-IR models are from https://github.com/white127/insuranceQA-cnn-lstm
 - Files 
 	- 4SeaResCombine.txt: an example of a standard TREC search result file (the index built with no_description_speaker; the IR model used is the query likelihood (QL))
 	- 100_no_answer_queryids.txt: a query_id set (the first 100 answers to these queries in a standard TREC search result file do not contain the ground truth answer; 
@@ -54,7 +54,7 @@ The two Neu-IR models are from [link](https://github.com/white127/insuranceQA-cn
 	  	```
 	 	python input_NN.py;
 - Run CNN/CNN+LSTM models
-	- The two Neu-IR models are from [link](https://github.com/white127/insuranceQA-cnn-lstm)
+	- The two Neu-IR models are from https://github.com/white127/insuranceQA-cnn-lstm
 	- The train data (stored in insuranceQA-cnn-lstm-master/insuranceQA/train)
 	- The test data (stored in insuranceQA-cnn-lstm-master/insuranceQA/test1)
 	- pre-trained 100-dimension word embeddings is from https://nlp.stanford.edu/data/wordvecs/ (stored in insuranceQA-cnn-lstm-master/insuranceQA/vectors.nobin)
